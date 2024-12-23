@@ -1,0 +1,881 @@
+fileFormatVersion: 2
+guid: 82db6c7411857ca49bd64eaa85de37af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 495
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f06330bf16853a4183a58433f36a9ea
+      internalID: -83899484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 494
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102abe64242f896429b8e6d25b2a6f68
+      internalID: 2085100392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 495
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a1037d3388d204283ff044fcac5f0a
+      internalID: 861153838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 495
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2fe25673c222545830e21755dfc020
+      internalID: 145040210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 495
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9bc35aec1e9c24e9f46c47fc22af78
+      internalID: -77611322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 495
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3c5c8f2f14dcd46aa619a593a04f4c
+      internalID: -203972822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 505
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73a767aff6298c4ea7a3f3fbc31898e
+      internalID: -1840715090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 456
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396e1c4c877ae57468099747054a36dc
+      internalID: -1245323695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 454
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deea089f04c9c8e4989f754ad22d0316
+      internalID: 268340257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 467
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab3f8ce8422ac042a514fbbf532badc
+      internalID: -1486828356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 457
+        width: 203
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a03fb7e019c748bc04f6f8a5d925b
+      internalID: 977225430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 441
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75781625d35ccac40ab0171c23752cc7
+      internalID: 2064355412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 336
+        width: 234
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a412d82b4eb714f831be8bf642caca
+      internalID: 703683761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 333
+        width: 217
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065b9dad8c4c3994f9e79c0bbe7cef09
+      internalID: -1244275520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 236
+        width: 514
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7717dcae1f5fb45907b1d5edea1c20
+      internalID: -23276659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508c1e896368f4459b0acfd339b5b8a
+      internalID: 159820945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c82760a8727d14896ef3f02803ddd5
+      internalID: -240764162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a26b277fda1cae48b88702c306cfaf8
+      internalID: -1316479028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c48a1bb6dee1408f1d8659722da12
+      internalID: 1996792847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 206
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d767a711455c0ca40a18e8afa28b3090
+      internalID: -258994465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 206
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe0aef52af22946b8d2f390202a27b
+      internalID: 553062571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b304a14054cde489d3ac6999bb5a2c
+      internalID: 2060732207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c52a1311aea1544bb03e302494381a6
+      internalID: -223601627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 206
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24621939f6e244b9f29004322e8227
+      internalID: 1527302894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1d5b9a926ece4479345cb109f7da2e
+      internalID: 1893185210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7458e65c3bdc458dab1452ced800f
+      internalID: 1799853095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638738b8c2bcd2440992dc8e447d93bb
+      internalID: 566617590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 206
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e291f8bf27a27a346bd4b844bafcd219
+      internalID: -290910127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d95502115222742aebfc58f811ba59
+      internalID: -219967418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea59c9fba2bb084f8c19e5df0e9134e
+      internalID: -1755058980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2e5d64918f13743a64a8f31d604e7e
+      internalID: 1282899122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 191
+        width: 241
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca56b55f8921b41911950ee86781ae
+      internalID: 1790794007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 137
+        width: 256
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325d8c0691801fd4e85a8ff8f2c89a96
+      internalID: -815357817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 131
+        width: 239
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3fb0fea2e335d4c80e148497877bf6
+      internalID: -1431120802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Excitebike - Excite Bike Track-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 609
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9e440f4c2b144488ce6cad3baf12a
+      internalID: 1079200007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NES - Excitebike - Excite Bike Track-Photoroom_0: -83899484
+      NES - Excitebike - Excite Bike Track-Photoroom_1: 2085100392
+      NES - Excitebike - Excite Bike Track-Photoroom_10: 977225430
+      NES - Excitebike - Excite Bike Track-Photoroom_11: 2064355412
+      NES - Excitebike - Excite Bike Track-Photoroom_12: 703683761
+      NES - Excitebike - Excite Bike Track-Photoroom_13: -1244275520
+      NES - Excitebike - Excite Bike Track-Photoroom_14: -23276659
+      NES - Excitebike - Excite Bike Track-Photoroom_15: 159820945
+      NES - Excitebike - Excite Bike Track-Photoroom_16: -240764162
+      NES - Excitebike - Excite Bike Track-Photoroom_17: -1316479028
+      NES - Excitebike - Excite Bike Track-Photoroom_18: 1996792847
+      NES - Excitebike - Excite Bike Track-Photoroom_19: -258994465
+      NES - Excitebike - Excite Bike Track-Photoroom_2: 861153838
+      NES - Excitebike - Excite Bike Track-Photoroom_20: 553062571
+      NES - Excitebike - Excite Bike Track-Photoroom_21: 2060732207
+      NES - Excitebike - Excite Bike Track-Photoroom_22: -223601627
+      NES - Excitebike - Excite Bike Track-Photoroom_23: 1527302894
+      NES - Excitebike - Excite Bike Track-Photoroom_24: 1893185210
+      NES - Excitebike - Excite Bike Track-Photoroom_25: 1799853095
+      NES - Excitebike - Excite Bike Track-Photoroom_26: 566617590
+      NES - Excitebike - Excite Bike Track-Photoroom_27: -290910127
+      NES - Excitebike - Excite Bike Track-Photoroom_28: -219967418
+      NES - Excitebike - Excite Bike Track-Photoroom_29: -1755058980
+      NES - Excitebike - Excite Bike Track-Photoroom_3: 145040210
+      NES - Excitebike - Excite Bike Track-Photoroom_30: 1282899122
+      NES - Excitebike - Excite Bike Track-Photoroom_31: 1790794007
+      NES - Excitebike - Excite Bike Track-Photoroom_32: -815357817
+      NES - Excitebike - Excite Bike Track-Photoroom_33: -1431120802
+      NES - Excitebike - Excite Bike Track-Photoroom_34: 1079200007
+      NES - Excitebike - Excite Bike Track-Photoroom_4: -77611322
+      NES - Excitebike - Excite Bike Track-Photoroom_5: -203972822
+      NES - Excitebike - Excite Bike Track-Photoroom_6: -1840715090
+      NES - Excitebike - Excite Bike Track-Photoroom_7: -1245323695
+      NES - Excitebike - Excite Bike Track-Photoroom_8: 268340257
+      NES - Excitebike - Excite Bike Track-Photoroom_9: -1486828356
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
