@@ -1,54 +1,66 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-   public GameObject[] prefab;
-   public float spawnRate;
+    public GameObject[] prefab;
+    public float spawnRate = 1;
+    public float minGap = 1;
+    public float maxGap = 10;
+    public int barriersOnScreen = 5;
 
-   public float minHeight = -1f;
-   public float maxHeight = 1f;
-   
-   
+    private int idx = 0;
+    public int rightX = 15;
 
-   private void OnEnable()
-   {
-       InvokeRepeating(nameof(Spanw), spawnRate, spawnRate);
-    }
-  
-  
-   void Start()
-   {
-      StartCoroutine(Spanw());
-   }
-
-   IEnumerator Spanw()
-   {
-      while (true)
-      {
-         for (int i = 0; i < prefab.Length; i++)
-         {
+    public IEnumerator<GameObject> BarrierGen()
+    {
+        while (true)
+        {
+            // var randomElement = prefab[0];
 
             var randomElement = prefab[Random.Range(0, prefab.Length)];
-            
-               GameObject barrier = Instantiate(randomElement, transform.position, Quaternion.identity);
-               barrier.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
-               yield return new WaitForSeconds(1);
-            
-         }
-      }
-   }
-   
-   
 
-   private void OnDisable()
-   {
-      CancelInvoke(nameof(Spanw));
-   }
+            yield return randomElement;
+        }
+    }
 
- 
+
+    private void OnEnable()
+    {
+        InvokeRepeating(nameof(Spawn), 1 / spawnRate, 1 / spawnRate);
+    }
+
+
+    void Start()
+    {
+        StartCoroutine(Spawn());
+    }
+
+    IEnumerator Spawn()
+    {
+        var barrierGener = BarrierGen();
+        while (true)
+        {
+            barrierGener.MoveNext();
+
+            GameObject barrier2 = Instantiate(barrierGener.Current, transform.position, Quaternion.identity);
+            var lastPos = transform.position;
+            for (int i = 0; i < barriersOnScreen - 1; i++)
+            {
+                barrierGener.MoveNext();
+                lastPos += new Vector3(Random.Range(minGap, maxGap), 0, 0);
+                barrier2 = Instantiate(barrierGener.Current, lastPos, Quaternion.identity);
+            }
+
+            yield return new WaitUntil(() => rightX > barrier2.transform.position.x);
+        }
+    }
+
+
+    private void OnDisable()
+    {
+        CancelInvoke(nameof(Spawn));
+    }
 }

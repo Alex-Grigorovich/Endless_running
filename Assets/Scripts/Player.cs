@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class Player : MonoBehaviour
 {
     
     [SerializeField] private float speed;
     public Rigidbody2D rigidbody;
-    public bool isGrounded; //Проверка "Стоит ли игрок на земле"
+    public bool isGrounded;
+
+    public bool isGod;
 
     
     public float gravityScale = 10;
@@ -25,7 +29,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Running();
+      //  Running();
         Jump();
 
     }
@@ -87,5 +91,17 @@ public class Player : MonoBehaviour
             isGrounded = false;
         }
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Obstacle" /*&& !isGod*/)
+        {
+            FindObjectOfType<GameManager>().GameOver();
+            
+        }
+        else if(other.gameObject.tag =="Scoring")
+        {
+            FindObjectOfType<GameManager>().IncreaseScore(); 
+        }
+    }
 }
